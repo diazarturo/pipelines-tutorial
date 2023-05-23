@@ -3,6 +3,6 @@ kind: EventListener
 metadata:
   name: vote-app
 spec:
-  serviceAccountName: pipeline
+  serviceAccountName: openshift-pipelines-operator
   triggers:
     - triggerRef: vote-trigger
