@@ -3,7 +3,7 @@ kind: Trigger
 metadata:
   name: vote-trigger
 spec:
-  serviceAccountName: pipeline
+  serviceAccountName: openshift-pipelines-operator
   interceptors:
     - ref:
         name: "github"
